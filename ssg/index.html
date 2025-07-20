@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <Title>shop-at-ssg</Title>
+        <link rel="stylesheet" href="ssg-shop.css">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+
+<body style="padding-bottom: 1000px";>
+
+
+    <div class="header" >
+        <div class="left-section">
+            <img class="logo" src="ssg-new-logo.png">
+        </div>
+
+        <div class="middle-section">
+            <input class="search-bar" type="text" placeholder="Search"/>
+                <button class="search-button">
+                   <img class="search-icon" src="search.svg">
+                </button>
+        </div>
+
+        <div class="right-section">
+            <button class="whatsapp">
+                <img class="whatsapp-logo" src="icons8-whatsapp-50.png">
+            </button>
+            <button class="insta">
+                <img class="insta-logo" src="icons8-instagram-50.png">
+            </button>
+            <button class="fav">
+                <img class="fav-logo" src="icons8-favorite-64.png">
+            </button>
+        </div>
+    </div>
+
+    <div class="nav-bar" >
+        <p class="heading"><span class="heading 1"> SHOP BY CATEGORY </span></p>
+
+        <div class="button-container">
+            <a href="#bedsheets">
+                <button class="bedsheet-button">
+                    <img src="bedsheet 1.webp" class="bed-img" alt="bedsheet">
+                      <p class="button-text">BEDSHEET</p>
+                </button></a>
+            <a href="#blanket">
+                <button class="blanket-button">
+                   <img class="blanket-img" src="blanket-1.jpg">
+                      <p class="button-text">BLANKET</p>
+                </button></a>
+            <a href="#comforter-set">
+                <button class="comforter-set-button">
+                   <img class="comforter-img" src="comforter-1.webp"> 
+                      <p class="button-text">COMFORTER-SET</p>
+                </button></a>
+            <a href="#shawls">
+                <button class="shawls-button">
+                   <img class="shawl-img" src="shawl-1.webp">
+                      <p class="button-text">SHAWL</p>
+                </button></a>
+            <a href="#gifting"><button class="gifting-button">GIFTING</button></a>
+        </div>
+    </div>
+
+    <div class="filter-sort">
+        <select class="sort">
+            <option value="">Sort By</option>
+            <option value="low-high">Price: Low to High</option>
+            <option value="high-low">Price: High to Low</option>
+            <option value="new"> Newest First</option>
+        </select>
+
+        <select class="filter">
+            <option value="">Filter By Category</option>
+            <option value="Bedsheets">Bedsheet</option>
+            <option value="blankets">Blanket</option>
+            <option value="comforter-set">Conforter-Set</option>
+            <option vlaue="shawl">Shawl</option>
+            <opyion value="gifting">Gifting-Items</opyion>
+        </select>
+    </div>
+
+<div class="img-grid">
+    <img src="bedsheet-2.webp" alt="Bedsheet" class="product-img">
+
+      <div class="product-details">
+        <h3 class="product-name">Jaipuri Cotton Bedsheet</h3>
+        <p class="product-fabric">Fabric: 100% Cotton</p>
+        <p class="product-stock">Status: <span class="in-stock">In Stock</span> </p>
+      </div>
+
+    <a href="https://wa.me/918950575001?text=I%20want%20to%20buy%20this%20Bedsheet%20from%20shop-at-ssg%20https://yourwebsite.com/images/bedsheet-2.webp" target="_blank">
+        <button class="buy-btn">Buy Now via Whatsapp</button>
+    </a>  
+</div>
+</body>
+</html>
